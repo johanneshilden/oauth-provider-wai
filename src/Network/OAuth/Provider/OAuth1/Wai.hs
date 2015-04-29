@@ -4,6 +4,7 @@ module Network.OAuth.Provider.OAuth1.Wai
       withOAuth
     , convertAndExecute
     , toWaiResponse
+    , toOAuthRequest
     ) where
 
 import Control.Arrow          (second)
